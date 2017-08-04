@@ -19,5 +19,10 @@ http://flask.pocoo.org/docs/0.11/installation/
 ```bash
 python app.py
 ```
+#for passord hashing 
+sudo apt-get install python-passlib 
+
+# & import into file
+from passlib.hash import sha256_crypt
 
 View app at http://localhost:50001/user/login on Rest Client
